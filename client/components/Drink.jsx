@@ -53,30 +53,51 @@ const Drink = ({ drinksArr, name }) => {
 
   return (
     <>
-      <div className='SHIIIT row align-items-center'>
-        <div className='col-3'></div>  
-        <div className='col-6'>
-        <h1 className="text-center mt-3 p-4 border">{name}</h1>
-          <div className='card'>
-            <img src={image} className='mx-auto card-img-top' onClick={drinkHandler} />
-            <div className='card-body'>
-              <h2 className='card-title'><u>{drinkName}</u></h2>
+      <div className="SHIIIT row align-items-center">
+        <a href="/" className="home-button">
+          visit bar
+        </a>
+        <div className="col-3"></div>
+        <div className="col-6">
+          <h1 className="text-center mt-3 p-4 border">{name}</h1>
+          <div className="card">
+            <img
+              src={image}
+              className="mx-auto card-img-top"
+              onClick={drinkHandler}
+            />
+            <div className="card-body">
+              <h2 className="card-title">
+                <u>{drinkName}</u>
+              </h2>
               <p>
-                <b><u>Type:</u></b> <i>{alcoholicCheck}</i>
+                <b>
+                  <u>Type:</u>
+                </b>{' '}
+                <i>{alcoholicCheck}</i>
               </p>
               <p>
-                <b><u>Served in:</u></b> <i>{glassType}</i>
+                <b>
+                  <u>Served in:</u>
+                </b>{' '}
+                <i>{glassType}</i>
               </p>
               <p>
-                <b><u>Main ingredient:</u></b> <i>{ingred1}</i>
+                <b>
+                  <u>Main ingredient:</u>
+                </b>{' '}
+                <i>{ingred1}</i>
               </p>
               <p>
-                <b><u>Also contains:</u></b> <i>{ingred2}</i>
+                <b>
+                  <u>Also contains:</u>
+                </b>{' '}
+                <i>{ingred2}</i>
               </p>
             </div>
           </div>
         </div>
-        <div className='col-3'></div>
+        <div className="col-3"></div>
       </div>
     </>
   )
@@ -85,7 +106,7 @@ const Drink = ({ drinksArr, name }) => {
 function mapStateToProps(state) {
   return {
     drinksArr: state.cocktails,
-    name: state.userName
+    name: state.userName,
   }
 }
 

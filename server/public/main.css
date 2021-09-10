@@ -9,25 +9,27 @@
   width: 20px;
 }
 
-html, body, .container-fluid{
-  background-color: #8C1684;
+html,
+body,
+.container-fluid {
+  background-color: #8c1684;
   background-image: url('https://www.onlygfx.com/wp-content/uploads/2018/10/4-confetti-background-1.png');
   background-size: 100%;
-  height:100vh;
+  height: 100vh;
 }
 
 .SHIIIT {
-  height: 100vh
+  height: 100vh;
 }
 
 .SHIT {
-  width: 90%
+  width: 90%;
 }
 
-h1{
-  color: #84BF04;
+h1 {
+  color: #84bf04;
   font-family: 'Shadows Into Light', cursive;
-  background-color: #381A40;
+  background-color: #381a40;
   border-radius: 8px;
 }
 
@@ -35,44 +37,52 @@ h2 {
   font-family: 'Shadows Into Light', cursive;
 }
 
-.loadinggif{
+.loadinggif {
   border-radius: 8px;
 }
 
-.col{
+.col {
   justify-content: center;
 }
 
 .btn {
-  background-color: #84BF04;
+  background-color: #84bf04;
 }
 
-.card{
+.card {
   font-family: 'Roboto', sans-serif;
-  background-color: #1D0926;
+  background-color: #1d0926;
 }
 
-.card-img-top{
-  background-color: #1D0926;
+.card-img-top {
+  background-color: #1d0926;
 }
 
-
-.card-body{
-  background-color: #381A40;
-  color: #84BF04;
+.card-body {
+  background-color: #381a40;
+  color: #84bf04;
 }
 
-.form-floating{
-  background-color: #1D0926;
+.form-floating {
+  background-color: #1d0926;
 }
 
-.loadingtext{
+.loadingtext {
   font-family: 'Shadows Into Light', cursive;
-  font-style:bold;
+  font-style: bold;
 }
 
-.appcontainer{
-  height:100vh;
+.appcontainer {
+  height: 100vh;
+}
+
+.home-button {
+  color: white;
+  background-color: #391a40;
+  text-align: center;
+  width: 300px;
+  height: 40px;
+  border: white solid 1px;
 }
 
 /* Color Theme Swatches in Hex */
